@@ -1,0 +1,33 @@
+/* ============================================================
+   STYLES.CSS — CSS tùy chỉnh (ngoài Tailwind)
+   ============================================================ */
+
+/* Thanh cuộn chung */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Ẩn scrollbar (dùng trong month view) */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Gạch ngang công việc đã hoàn thành */
+.completed-strike {
+    text-decoration: line-through;
+    opacity: 0.8;
+}
